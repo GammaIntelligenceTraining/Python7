@@ -29,9 +29,11 @@ user_surname = 'Smith'
 # code 2 data
 x = 152
 y = 132
+print(152 % 132 * 13)
+# solution
+code = code_1 + '-' + str(int((x % y * 13) ** 0.5)) + '-' + str(code_3)
+print('Hello ' + user_name + ' ' + user_surname + '. You are ' + str(current_year - year_of_birth) + ' years old. Your secret '
+        'code is ' + code + '.')
 
-code_2 = int((x % y * 13) ** 0.5)
-secret_code = f'{code_1}-{code_2}-{code_3}'
-
-print(f'Hello {user_name} {user_surname}. You are {current_year - year_of_birth} years old. '
-      f'Your secret code is {secret_code}.')
+print(f'Hello {user_name} {user_surname}. You are {current_year - year_of_birth} years old. Your secret '
+      f'code is {code}.')
