@@ -21,3 +21,20 @@ abc
 ball mall hall wall tall
 '''
 sentence = 'Start a sentence and then bring it to an end Start'
+
+emails = '''
+SampleMaiL@example.com
+john.sample@my-work.net
+jack-125-production@colledge.edu
+bob.Samples@example.co.uk
+example@example.org
+'''
+
+urls = '''
+https://www.google.com
+http://www.wordpress.org
+https://www.nasa.gov
+https://example.net
+www.example.net
+example.net
+'''
