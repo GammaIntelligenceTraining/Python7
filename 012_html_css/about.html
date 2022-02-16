@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page about me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="index.html">Home page</a>
+    <a href="http://www.example.com">Example</a>
+    <p>This is page about me!</p>
+
+    <form action="" method="post">
+        <label for="user-name">User name: </label>
+        <input type="text" id="user-name" class="input-field" name="user-name" placeholder="USERNAME">
+        <br>
+        <label for="user-email">Email: </label>
+        <input type="email" id="user-email" class="input-field" name="user-email">
+        <br>
+        <label for="user-pass">Password: </label>
+        <input type="password" id="user-pass" class="input-field" name="user-pass">
+        <br>
+        <label for="choice1">Would you like to get email listing?</label>
+        <input type="checkbox" id="choice1" class="input-button">
+        <br>
+        Male <input type="radio" name="gender" value="Man" id="radio-man">
+        Female <input type="radio" name="gender" value="Female" id="radio-female">
+        <br>
+        <select name="security-question" id="select" class="input-button">
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+        </select>
+        <textarea name="about-text" id="about-text" cols="30" rows="10" class="input-field"></textarea>
+        <input type="submit" value="Send form" class="input-button">
+    </form>
+</body>
+</html>

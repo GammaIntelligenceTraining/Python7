@@ -1,0 +1,23 @@
+#user-name:active {
+    background-color: crimson;
+}
+.input-field {
+    background-color: coral;
+}
+.input-button {
+    background-color: coral;
+    border-top: 10px black solid;
+}
+a {
+    color: blue;
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    color: orange;
+    font-size: larger;
+}
+a:active {
+    color: pink;
+}
