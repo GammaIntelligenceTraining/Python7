@@ -66,7 +66,7 @@ soup = BS(full_page.content, 'html.parser')
 # for item in match:
 #     print(item)
 
-# # Returns list of attributes
-# print(soup.div.get_attribute_list('class'))
+# Returns list of attributes
+print(soup.div.get_attribute_list('class'))
 
 
