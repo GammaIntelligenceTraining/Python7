@@ -7,3 +7,5 @@ password2 = '12345678199360'
 pass_hash1 = hashlib.md5(password2.encode('utf-8')).hexdigest()[:5]
 print(pass_hash)
 print(pass_hash1)
+
+print('Hello world')
